@@ -1,7 +1,3 @@
-<h1 align="center">
-    <img width="512" src="locales/Banner.jpg">
-</h1>
-
 1. Fill project name in `environment.py`
 
 2. Search all `TODO` comments, remove unnecessary and finish needed
