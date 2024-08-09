@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<folder name="LS" version="1">
+	<folder name="be">
+		<file updated="1" name="app" type="pyc" path="be"/>
+		<folder name="Server">
+			<file updated="1" name="Flask" type="pyc" path="be\Server"/>
+			<folder name="blueprints">
+				<file updated="1" name="App" type="pyc" path="be\Server\blueprints"/>
+				<file updated="1" name="Auth" type="pyc" path="be\Server\blueprints"/>
+				<file updated="1" name="Ui" type="pyc" path="be\Server\blueprints"/>
+			</folder>
+		</folder>
+	</folder>
+	<folder name="cfg">
+		<file updated="1" name="app" type="json" path="cfg"/>
+		<file updated="1" name="user" type="json" path="cfg"/>
+	</folder>
+	<folder name="fe">
+		<file updated="1" name="index" type="html" path="fe"/>
+		<folder name="assets">
+			<file updated="1" name="auth" type="js" path="fe\assets"/>
+			<file updated="1" name="constant" type="js" path="fe\assets"/>
+			<file updated="1" name="index" type="js" path="fe\assets"/>
+			<file updated="1" name="language" type="js" path="fe\assets"/>
+			<file updated="1" name="style" type="css" path="fe\assets"/>
+			<folder name="logo">
+				<file updated="1" name="filled" type="png" path="fe\assets\logo"/>
+				<file updated="1" name="firebase" type="png" path="fe\assets\logo"/>
+				<file updated="1" name="nofill" type="png" path="fe\assets\logo"/>
+			</folder>
+			<folder name="media"></folder>
+			<folder name="overlay">
+				<folder name="info">
+					<file updated="1" name="overlay" type="html" path="fe\assets\overlay\info"/>
+					<file updated="1" name="script" type="js" path="fe\assets\overlay\info"/>
+					<file updated="1" name="style" type="css" path="fe\assets\overlay\info"/>
+				</folder>
+			</folder>
+			<folder name="widgets">
+				<file updated="1" name="style" type="css" path="fe\assets\widgets"/>
+				<folder name="checkbox">
+					<file updated="1" name="style" type="css" path="fe\assets\widgets\checkbox"/>
+				</folder>
+				<folder name="slider">
+					<file updated="1" name="style" type="css" path="fe\assets\widgets\slider"/>
+				</folder>
+				<folder name="switch">
+					<file updated="1" name="style" type="css" path="fe\assets\widgets\switch"/>
+				</folder>
+			</folder>
+		</folder>
+	</folder>
+</folder>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/widgets/style.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div id="app" theme="dark" lang="en">
+        <div id="notify-container" style="z-index: 4000;"></div>
+        <div id="controls" style="z-index: 3000;">
+            <button class="app-control-button" name="app-control-settings">
+                <img src="assets/media/controls/Settings.svg" alt="">
+            </button>
+            <button class="app-control-button" name="app-control-minimize">
+                <img src="assets/media/controls/Minimize.svg" alt="">
+            </button>
+            <button class="app-control-button" name="app-control-close">
+                <img src="assets/media/controls/Close.svg" alt="">
+            </button>
+        </div>
+        <section id="overlay" style="z-index: 2000; display: none;">
+            <section id="overlay-container" name=""></section>
+        </section>
+    </div>
+
+    <script src="assets/constant.js"></script>
+    <script src="assets/language.js"></script>
+    <script src="assets/auth.js"></script>
+    <script src="assets/index.js"></script>
+</body>
+</html>

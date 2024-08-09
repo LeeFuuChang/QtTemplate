@@ -1,0 +1,13 @@
+pyinstaller
+
+LoadingWindow
+
+requests
+
+PyQt5
+PyQtWebEngine
+
+flask
+waitress
+
+pytz
